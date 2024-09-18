@@ -6,4 +6,4 @@ function test(name){
   return result
 }
 
-console.log(test("Heraldo Yusron"))
+console.log(test("Raditya Fauzan"))
