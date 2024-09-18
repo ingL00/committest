@@ -3,9 +3,4 @@ function test(name){
   
   return result
 }
-
-<<<<<<< HEAD
 console.log(test("Raditya Fauzan"))
-=======
-console.log(test("Raditya Fauzan"))
->>>>>>> master
