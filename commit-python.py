@@ -5,8 +5,10 @@ def loop(name):
   return result
 
 def encrypt(name):
- for i in range(len(name)):
-  print(chr(ord(name[i])+1))
+  result = ""
+  for i in range(len(name)):
+    result += chr(ord(name[i])+1) 
+  return result
   
 def capitalize(name):
   result = name.upper()
@@ -14,6 +16,7 @@ def capitalize(name):
 
 if __name__ == '__main__':
   reverse = loop("heraldo yusron")
-  encrypt_reverse = encrypt(reverse)
-  capital = capitalize(reverse)
+  encrypt = encrypt(reverse)
+  capital = capitalize(encrypt)
+
   print(capital)
